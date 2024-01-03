@@ -1,0 +1,16 @@
+{
+  "name": "stoom-tenda",
+  "version": "1.0.0",
+  "description": "Desafio de automação com cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1"
+  }
+}
