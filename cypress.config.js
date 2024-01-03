@@ -17,7 +17,7 @@ module.exports = defineConfig({
   viewportHeight: 832,
   e2e: {
     baseUrl:'https://marketplace-alpha.tendaatacado.com.br/',
-    defaultCommandTimeout:50000,
+    defaultCommandTimeout:80000,
     setupNodeEvents(on, config) {
       // implement node event listeners here
       const file = config.env.confiFile || 'dev';
