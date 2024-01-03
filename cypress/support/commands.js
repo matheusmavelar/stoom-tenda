@@ -10,7 +10,17 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+ Cypress.Commands.add('login', (cpf, senha) => { 
+    cy.get('[id="userTopArea"]').click()
+    cy.get('[id="login"]').type(cpf)
+    cy.get('[id="password"]').type(senha)
+    cy.contains('[data-cy="btn-"]', 'Continuar').click()
+  })
+
+  Cypress.Commands.add('logoff', () => { 
+    cy.get('[id="userTopArea"]').click()
+    cy.get('[data-cy="btn-logout"]').click()
+  })
 //
 //
 // -- This is a child command --

@@ -1,0 +1,8 @@
+{
+    "env": {
+        "auth":{
+            "cpf": "660.243.870-08",
+            "senha" : "Teste@banana"         
+        }
+    }
+}
