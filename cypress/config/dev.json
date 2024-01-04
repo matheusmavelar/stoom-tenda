@@ -3,6 +3,12 @@
         "auth":{
             "cpf": "660.243.870-08",
             "senha" : "Teste@banana"         
+        },
+        "cartao":{
+            "cpf": "660.243.870-08",
+            "cvv" : "123",
+            "numCartao": "4000000000000010",
+            "nome": "Matheus Avelar"      
         }
     }
 }
